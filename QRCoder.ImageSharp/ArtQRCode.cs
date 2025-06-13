@@ -82,10 +82,10 @@ namespace QRCoder.ImageSharp
                 }
             };
 
-            IBrush lightBrush = Brushes.Solid(lightColor);
-            IBrush darkBrush = Brushes.Solid(darkColor);
+            Brush lightBrush = Brushes.Solid(lightColor);
+            Brush darkBrush = Brushes.Solid(darkColor);
 
-            IBrush backgroundBrush = Brushes.Solid(backgroundColor);
+            Brush backgroundBrush = Brushes.Solid(backgroundColor);
 
             //background rectangle:
             IPath backgroundRectangle = new RectangularPolygon(0, 0, size, size);
